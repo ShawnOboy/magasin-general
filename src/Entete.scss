@@ -1,0 +1,25 @@
+.Entete {
+
+    position: sticky;
+    top: 0;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: rgb(10, 10, 10);
+    padding: 2rem 1rem;
+    border-bottom: solid 1rem rgb(40, 40, 40);
+    color: rgb(255, 255, 255);
+
+    nav {
+
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+
+}
